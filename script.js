@@ -14,10 +14,12 @@ emailForm.addEventListener("submit", (e) => {
     console.log("Email is Valid");
     errorMessage.textContent = "You've been notified via your email address :)";
 
-    errorMessage.style.display = "none"
+    // errorMessage.style.display = "none"
     errorMessage.classList.remove("hidden")
     email.classList.add("border-paleBlue")
     email.classList.remove("border-lightRed")
+    errorMessage.classList.remove("text-lightRed")
+    errorMessage.style.color = "blue"
 
   } else {
     if (email.value == "") {
