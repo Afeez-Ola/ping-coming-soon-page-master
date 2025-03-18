@@ -186,11 +186,26 @@
       max-width: 96rem;
     }
   }
+  .m-auto {
+    margin: auto;
+  }
   .contents {
     display: contents;
   }
+  .flex {
+    display: flex;
+  }
   .table {
     display: table;
+  }
+  .w-3\/5 {
+    width: calc(3/5 * 100%);
+  }
+  .w-4\/5 {
+    width: calc(4/5 * 100%);
+  }
+  .flex-col {
+    flex-direction: column;
   }
   .text-default {
     font-size: var(--text-default);
