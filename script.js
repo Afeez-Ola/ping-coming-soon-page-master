@@ -10,17 +10,19 @@ emailForm.addEventListener("submit", (e) => {
   const email = document.getElementById("email")
   const errorMessage = document.querySelector(".errorMessage")
 
-    if (emailRegex.test(email.value)) {
+  if (emailRegex.test(email.value)) {
     console.log("Email is Valid");
+    errorMessage.textContent = "You've been notified via your email address :)";
+
     errorMessage.style.display = "none"
     errorMessage.classList.remove("hidden")
     email.classList.add("border-paleBlue")
     email.classList.remove("border-lightRed")
 
   } else {
-      if (email.value == "") {
+    if (email.value == "") {
       errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
-    } else{
+    } else {
       errorMessage.textContent = "please provide a valid email address";
 
     }
@@ -29,5 +31,5 @@ emailForm.addEventListener("submit", (e) => {
     email.classList.add("border-lightRed")
     email.classList.remove("border-paleBlue")
   }
-  
+
 })
