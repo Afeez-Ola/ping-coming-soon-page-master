@@ -2,3 +2,13 @@
 @import "tailwindcss/preflight";  /* Replaces @tailwind base */
 /* @import "tailwindcss/components"; Replaces @tailwind components */
 @import "tailwindcss/utilities";  /* Replaces @tailwind utilities */
+
+@theme {
+  --font-display: "Libre Franklin", sans-serif;
+  --color-blue: hsl(223, 87%, 63%);
+  --color-paleBlue: hsl(223, 100%, 88%);
+  --color-lightRed: hsl(354, 100%, 66%);
+  --color-gray: hsl(0, 0%, 59%);
+  --color-darkBlue: hsl(209, 33%, 12%);
+  --text-default: 1.25rem;
+}

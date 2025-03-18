@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-content: ["./*.html", "./css/**/*.css", "./js/**/*.js"], // Adjust paths as needed
+module.exports = {
+  content: ["./*.html", "./css/**/*.css", "./js/**/*.js"], // Adjust paths as needed
   theme: {
     extend: {
       colors: {
@@ -10,10 +10,7 @@ content: ["./*.html", "./css/**/*.css", "./js/**/*.js"], // Adjust paths as need
         neutralGray: "hsl(0, 0%, 59%)",
         neutralDarkBlue: "hsl(209, 33%, 12%)",
       },
-      
     },
-    
   },
-  
   plugins: [],
 };
