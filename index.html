@@ -28,11 +28,11 @@
                 class="font-bold text-darkBlue">soon!</span></h3>
             <p class="font-light text-xs text-darkBlue">Subscribe and get </p>
           </div>
-          <div class="cta_inputs flex flex-col justify-center ">
-            <input class="border w-full text-darkBlue border-paleBlue py-3 rounded-3xl placeholder:text-paleBlue placeholder:text-left px-18 " type="text" required placeholder="Your email address...">
-            <p class="text-lightRed italic text-[10px] text-center pt-2">Please provide a valid email address</p>
-            <a class="border w-full bg-blue text-white text-center border-paleBlue py-3 rounded-3xl  px-8 mt-4" href="#">Notify Me</a>
-          </div>
+          <form id="emailForm" class="cta_inputs flex flex-col justify-center ">
+            <input id="email" class="border w-full text-darkBlue border-paleBlue py-3 rounded-3xl placeholder:text-paleBlue placeholder:text-left px-18 " type="text" required placeholder="Your email address...">
+            <p class="text-lightRed hidden errorMessage italic text-[10px] text-center pt-2">Please provide a valid email address</p>
+            <button type="submit" class="border w-full bg-blue text-white text-center border-paleBlue py-3 rounded-3xl  px-8 mt-4" href="#">Notify Me</button>
+          </form>
         </div>
         <div class="dashboard">
           <img class="" src="/images/illustration-dashboard.png" alt="illustration-dashboard">
@@ -61,5 +61,7 @@
 </footer>
   </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>

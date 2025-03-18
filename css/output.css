@@ -197,11 +197,17 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .block {
+    display: block;
+  }
   .contents {
     display: contents;
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .table {
     display: table;
@@ -267,6 +273,9 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-lightRed {
+    border-color: var(--color-lightRed);
   }
   .border-paleBlue {
     border-color: var(--color-paleBlue);
