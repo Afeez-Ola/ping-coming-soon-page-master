@@ -17,9 +17,12 @@ emailForm.addEventListener("submit", (e) => {
   } else {
       if (email.value == "") {
       errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
+    } else{
+      errorMessage.textContent = "please provide a valid email address";
+
     }
     errorMessage.style.display = "block";
-    errorMessage.classList.add("hidden");
+    errorMessage.classList.remove("hidden");
     email.classList.add("border-lightRed")
     email.classList.remove("border-paleBlue")
     console.log(errorMessage.value);
