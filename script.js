@@ -19,7 +19,7 @@ emailForm.addEventListener("submit", (e) => {
     email.classList.add("border-paleBlue")
     email.classList.remove("border-lightRed")
     errorMessage.classList.remove("text-lightRed")
-    errorMessage.style.color = "blue"
+    errorMessage.style.color = "#4C7BF3"
 
   } else {
     if (email.value == "") {
