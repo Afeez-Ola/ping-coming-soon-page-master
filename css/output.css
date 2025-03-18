@@ -453,6 +453,16 @@
       margin-top: calc(var(--spacing) * 0);
     }
   }
+  .md\:w-1\/2 {
+    @media (width >= 48rem) {
+      width: calc(1/2 * 100%);
+    }
+  }
+  .md\:w-2\/5 {
+    @media (width >= 48rem) {
+      width: calc(2/5 * 100%);
+    }
+  }
   .md\:flex-1 {
     @media (width >= 48rem) {
       flex: 1;
