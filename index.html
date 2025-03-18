@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/output.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -14,22 +18,23 @@
 </head>
 
 <body>
-  <div class="w-4/5 flex flex-col m-auto">
-    <main>
-      <div class="container ">
-        <div class="cta">
-          <img class="m-auto" src="/images/logo.svg" alt="logo">
-          <div class="cta_text">
-            <h3>We are launching soon!</h3>
-            <p>Subscribe and get </p>
+  <div class="flex flex-col w-full  justify-center items-center">
+    <main class="py-[6rem] w-10/12  ">
+      <div class="items-center flex flex-col justify-center gap-16 ">
+        <div class="cta flex flex-col justify-center items-center gap-8">
+          <img class="m-auto " src="/images/logo.svg" alt="logo">
+          <div class="cta_text w-full text-default text-center flex flex-col justify-center items-center gap-2">
+            <h3 class="text-2xl font-light text-gray">We are launching <span
+                class="font-bold text-darkBlue">soon!</span></h3>
+            <p class="font-light text-xs text-darkBlue">Subscribe and get </p>
           </div>
-          <div class="cta_inputs">
-            <input type="text" placeholder="Your email address...">
-            <a href="#">Notify Me</a>
+          <div class="cta_inputs flex flex-col justify-center items-center gap-4">
+            <input class="border w-full border-paleBlue py-3 rounded-3xl placeholder:text-paleBlue placeholder:text-left px-12" type="text" placeholder="Your email address...">
+            <a class="border w-full bg-blue text-white text-center border-paleBlue py-3 rounded-3xl  px-8" href="#">Notify Me</a>
           </div>
         </div>
         <div class="dashboard">
-          <img src="/images/illustration-dashboard.png" alt="illustration-dashboard">
+          <img class="" src="/images/illustration-dashboard.png" alt="illustration-dashboard">
         </div>
       </div>
     </main>

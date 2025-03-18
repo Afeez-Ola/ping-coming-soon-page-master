@@ -1,7 +1,9 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";  /* Replaces @tailwind base */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* @import "tailwindcss/preflight";  Replaces @tailwind base */
 /* @import "tailwindcss/components"; Replaces @tailwind components */
-@import "tailwindcss/utilities";  /* Replaces @tailwind utilities */
+/* @import "tailwindcss/utilities";  Replaces @tailwind utilities */
 
 @theme {
   --font-display: "Libre Franklin", sans-serif;
