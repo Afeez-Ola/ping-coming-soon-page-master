@@ -14,6 +14,9 @@ emailForm.addEventListener("submit", (e) => {
     console.log("Email is Valid");
     errorMessage.style.display = "none"
     errorMessage.classList.remove("hidden")
+    email.classList.add("border-paleBlue")
+    email.classList.remove("border-lightRed")
+
   } else {
       if (email.value == "") {
       errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
@@ -25,8 +28,6 @@ emailForm.addEventListener("submit", (e) => {
     errorMessage.classList.remove("hidden");
     email.classList.add("border-lightRed")
     email.classList.remove("border-paleBlue")
-    console.log(errorMessage.value);
-
   }
   
 })
