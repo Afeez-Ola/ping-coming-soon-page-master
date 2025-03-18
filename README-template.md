@@ -10,7 +10,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
 
@@ -39,7 +38,6 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/ping-coming-soon-page-master)
 - Live Site URL: [Add live site URL here](https://ping-coming-soon-page-master-zeta.vercel.app/)
 
-## My process
 
 ### Built with
 
