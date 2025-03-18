@@ -297,6 +297,9 @@
   .bg-gray-100 {
     background-color: var(--color-gray-100);
   }
+  .fill-blue {
+    fill: var(--color-blue);
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -419,6 +422,20 @@
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-paleBlue);
+      }
+    }
+  }
+  .hover\:bg-blue {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue);
+      }
+    }
+  }
+  .hover\:fill-white {
+    &:hover {
+      @media (hover: hover) {
+        fill: var(--color-white);
       }
     }
   }
